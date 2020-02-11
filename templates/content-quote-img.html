@@ -1,0 +1,36 @@
+<div class="swiper-slide story quote-img" id="{{ slide['id'] }}">
+
+    {% if slide["track_id"] %}
+        {% include "player-active.html" %}
+
+    {% elif not slide["track_id"] %}
+        {% include "player-inactive.html" %}
+
+    {% endif %}
+        
+    <div class="image-holder">
+
+        <picture>
+        
+            <img src="{{ slide['img']['url'] }}" class="full-img" alt="{{ slide['img']['alt'] }}">
+        
+        </picture>                    
+    
+    </div> <!-- End of div.image-holder -->
+
+    <div class="legend-holder">
+
+        <p class="text quote">{{ slide["img"]["quote"]|safe }}</p> <!-- safe tag disables Jinja2 auto-escaping -->
+        <p class="author"><em>{{ slide["img"]["author"]|safe }}</em></p>
+        <p class="credit"><strong>Foto:</strong> {{ slide["img"]["credit"] }}</p>
+
+    </div>
+        
+    <div class="arrow-down-holder">
+
+        <p class="arrow-down up-and-down"></p>
+
+    </div> <!-- End of div.arrow-down-holder-->
+
+
+</div> <!-- End of div.swiper-slide -->

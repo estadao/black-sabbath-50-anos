@@ -1,0 +1,25 @@
+<div class="swiper-slide story" id="{{ slide['id'] }}">
+
+    {% if slide["track_id"] %}
+        {% include "player-active.html" %}
+
+    {% elif not slide["track_id"] %}
+        {% include "player-inactive.html" %}
+
+    {% endif %}
+
+    <div class="text-holder">
+            
+            {% for paragraph in slide.paragraphs %}
+                <p class="text">{{ paragraph|safe }}</p>
+            {% endfor %}
+
+    </div> <!-- End of div.text-holder -->
+
+    <div class="arrow-down-holder">
+
+        <p class="arrow-down up-and-down"></p>
+        
+    </div> <!-- End of div.arrow-down-holder-->
+                    
+</div> <!-- End of div swiper.slide -->

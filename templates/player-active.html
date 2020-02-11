@@ -1,0 +1,22 @@
+<div class="player-header">
+
+    <div class="spotify-logo-holder">
+        <a href="{{ tracks[ slide['track_id'] ]['on_spotify'] }}" target="_blank" rel="noopener">
+            <img class="spotify-logo" src="static/media/spotify-icon.png">
+        </a>
+    </div> <!-- End of div.spotify-logo-holder -->
+
+    <div class="track-info-holder active" data-track_id="{{ slide['track_id'] }}">
+        <a href="{{ tracks[ slide['track_id'] ]['on_spotify'] }}" target="_blank" rel="noopener">
+            <p class=text><b>Tocando:</b></p>
+            <p class="text marquee">{{ tracks[ slide["track_id"] ]["artist"] }} – {{ tracks[ slide["track_id"] ]["song"]}} ({{ tracks[ slide["track_id"] ]["year"] }})</p>    
+        </a>
+    </div> <!-- End of div.track-info-holder -->
+
+    <div class="sound-button-holder">
+        <i class="material-icons sound-icon not-displayed">volume_up</i>
+        <i class="material-icons sound-icon displayed">volume_off</i>
+    </div> <!-- End of div.sound-button-holder -->
+
+</div> <!-- End of div.player-header -->
+

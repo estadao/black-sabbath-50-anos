@@ -1,0 +1,24 @@
+<div class="swiper-slide simple-quote" id="{{ slide['id'] }}">
+
+    {% if slide["track_id"] %}
+        {% include "player-active.html" %}
+
+    {% elif not slide["track_id"] %}
+        {% include "player-inactive.html" %}
+
+    {% endif %}
+
+    <div class="text-holder">
+            
+        <p class="quote">{{ slide['quote']['quote']|safe }}</p>
+        <p class="author">{{ slide['quote']['author']|safe }}</p>
+
+    </div> <!-- End of div.text-holder -->
+
+    <div class="arrow-down-holder">
+
+        <p class="arrow-down up-and-down"></p>
+        
+    </div> <!-- End of div.arrow-down-holder-->
+                    
+</div> <!-- End of div swiper.slide -->

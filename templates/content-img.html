@@ -1,0 +1,41 @@
+<div class="swiper-slide story img" id="{{ slide['id'] }}">
+
+    {% if slide["track_id"] %}
+        {% include "player-active.html" %}
+
+    {% elif not slide["track_id"] %}
+        {% include "player-inactive.html" %}
+
+    {% endif %}
+        
+    <div class="image-holder">
+
+        <picture>
+        
+            <img src="{{ slide['img']['url'] }}" class="full-img" alt="{{ slide['img']['alt'] }}">
+        
+        </picture>                    
+    
+    </div> <!-- End of div.image-holder -->
+
+    {% if slide["img"]["caption"] or slide["img"]["credit"] %}
+    <div class="legend-holder">
+
+        {% if slide["img"]["caption"] %}
+        <p class="text">{{ slide["img"]["caption"]|safe }}</p> <!-- safe tag disables Jinja2 auto-escaping -->
+        {% endif %}
+        {% if slide["img"]["credit"] %}
+        <p class="credit"><strong>Foto:</strong> {{ slide["img"]["credit"] }}</p>
+        {% endif %}
+
+    </div>
+    {% endif %}
+        
+    <div class="arrow-down-holder">
+
+        <p class="arrow-down up-and-down"></p>
+
+    </div> <!-- End of div.arrow-down-holder-->
+
+
+</div> <!-- End of div.swiper-slide -->

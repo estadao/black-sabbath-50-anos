@@ -1,0 +1,46 @@
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/include/core.php' ?>
+<!doctype html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+
+{% include "head.html" %}
+
+  <body>
+
+    <?php $core->include('body-opening') ?>
+
+    <div id="audio-container">
+
+      {% for key, value in tracks.items() %}
+
+        {% include "hidden-audio.html" %}
+
+      {% endfor %}
+
+    </div>
+
+    {% include "please-rotate.html" %}
+
+    <div class="swiper-container">
+
+      <div class="swiper-wrapper">
+
+        {% for slide in slides %}
+
+            {% include slide["type"] + ".html" %}
+
+        {% endfor %}
+
+      </div> <!-- End of div.swiper-wrapper -->
+
+    </div> <!-- End of div.swiper-container -->
+      
+    <!-- Javascript -->
+    <script src="static/scripts/scripts.js?version=1.1"></script>
+
+    <?php $core->include('body-closing') ?>
+
+</body>
+
+</html>

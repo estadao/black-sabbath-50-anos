@@ -1,0 +1,29 @@
+<div class="swiper-slide story img-small" id="{{ slide['id'] }}">
+
+    {% if slide["track_id"] %}
+        {% include "player-active.html" %}
+
+    {% elif not slide["track_id"] %}
+        {% include "player-inactive.html" %}
+
+    {% endif %}
+
+    <div class="img-holder">
+            
+        <img class="story-img" src="{{ slide['img']['url'] }}" alt="{{ slide['img']['alt'] }}">
+
+    </div> <!-- End of div.img-holder -->
+
+    <div class="text-holder">
+
+        <p class="text caption">{{ slide['img']['caption'] }}</p>
+
+    </div> <!-- End of div.text-holder -->
+
+    <div class="arrow-down-holder">
+
+        <p class="arrow-down up-and-down"></p>
+        
+    </div> <!-- End of div.arrow-down-holder-->
+                    
+</div> <!-- End of div swiper.slide -->

@@ -1,0 +1,661 @@
+/* Colors */
+/* Fonts */
+/* Please, rotate the device! */
+.please-rotate {
+  background: #09060d;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: none;
+}
+.please-rotate .rotate-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.please-rotate .phone {
+  margin: auto;
+  height: 50px;
+  width: 100px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  animation: rotate 1.5s ease-in-out infinite alternate;
+  /* display: none; */
+}
+.please-rotate .message {
+  margin: auto;
+  max-width: 200px;
+  color: white;
+  font-size: 1em;
+  margin-top: 40px;
+}
+.please-rotate .message .text {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-device-width: 812px) and (orientation: landscape) {
+  .please-rotate {
+    display: block;
+  }
+}
+/* General settings */
+html, body, .swiper-container {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  overflow: hidden;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+}
+
+#audio-container {
+  display: none;
+}
+
+.audio-hidden {
+  display: none;
+}
+
+.swiper-slide {
+  overflow-y: hidden;
+}
+
+.displayed {
+  pointer-events: all !important;
+}
+
+.not-displayed {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Arrow down button */
+.arrow-down-holder {
+  text-align: center;
+  margin: auto;
+}
+.arrow-down-holder .arrow-down {
+  border: solid #a8a099;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Animations */
+@keyframes up-and-down {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(45deg);
+  }
+  10% {
+    transform: translate3d(0, -1px, 0) rotate(45deg);
+  }
+  20% {
+    transform: translate3d(0, -2px, 0) rotate(45deg);
+  }
+  30% {
+    transform: translate3d(0, -3px, 0) rotate(45deg);
+  }
+  40% {
+    transform: translate3d(0, -4px, 0) rotate(45deg);
+  }
+  50% {
+    transform: translate3d(0, -5px, 0) rotate(45deg);
+  }
+  60% {
+    transform: translate3d(0, -4px, 0) rotate(45deg);
+  }
+  70% {
+    transform: translate3d(0, -3px, 0) rotate(45deg);
+  }
+  80% {
+    transform: translate3d(0, -2px, 0) rotate(45deg);
+  }
+  90% {
+    transform: translate3d(0, -1px, 0) rotate(45deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(45deg);
+  }
+}
+.up-and-down {
+  display: inline-block;
+  font-size: 24px;
+  animation: up-and-down 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation-iteration-count: infinite;
+  transform: translate3d(0, 0, 0) rotate(45deg);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  margin: auto;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+#title-screen {
+  background-color: #09060d;
+}
+#title-screen .estado-header {
+  height: 50px;
+}
+#title-screen .estado-header .logo {
+  position: relative;
+  top: 10px;
+  height: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+}
+#title-screen .text {
+  color: #a8a099;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+#title-screen .title-box {
+  margin-top: 50px;
+}
+#title-screen .title-box .sabbath-logo-holder {
+  margin: auto;
+}
+#title-screen .title-box .sabbath-logo-holder .logo {
+  height: 140px;
+  display: block;
+  margin: auto;
+}
+#title-screen .title-box .subtitle-holder h2.subtitle {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #a8a099;
+}
+#title-screen .title-box .text-holder {
+  align-self: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  max-width: 300px;
+}
+#title-screen .call-to-action {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#title-screen .call-to-action .text-holder {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 200px;
+}
+#title-screen #sound-button {
+  width: 220px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #6C447a;
+  border-color: #09060d;
+  color: #a8a099;
+  outline: none;
+}
+#title-screen #sound-button .sound-button-content {
+  display: inline-flex;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#title-screen #sound-button .material-icons {
+  font-size: 18px;
+  margin-right: 5px;
+  display: inline-flex;
+}
+
+/* Regular story sections */
+.story, .img-small, .simple-quote, .sources {
+  position: relative;
+  background-color: #eeceb6;
+  display: block;
+}
+.story .player-header, .img-small .player-header, .simple-quote .player-header, .sources .player-header {
+  padding: 0px;
+  height: 50px;
+  background-color: #28160e;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.story .player-header .spotify-logo-holder, .img-small .player-header .spotify-logo-holder, .simple-quote .player-header .spotify-logo-holder, .sources .player-header .spotify-logo-holder {
+  width: 8%;
+  margin-left: 20px;
+  margin-right: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+.story .player-header .spotify-logo-holder .spotify-logo, .img-small .player-header .spotify-logo-holder .spotify-logo, .simple-quote .player-header .spotify-logo-holder .spotify-logo, .sources .player-header .spotify-logo-holder .spotify-logo {
+  height: 21px;
+}
+.story .player-header .track-info-holder, .img-small .player-header .track-info-holder, .simple-quote .player-header .track-info-holder, .sources .player-header .track-info-holder {
+  min-width: 0;
+  width: 82%;
+  margin-top: 5px;
+  padding: 0px;
+}
+.story .player-header .track-info-holder .text, .img-small .player-header .track-info-holder .text, .simple-quote .player-header .track-info-holder .text, .sources .player-header .track-info-holder .text {
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.story .player-header .sound-button-holder, .img-small .player-header .sound-button-holder, .simple-quote .player-header .sound-button-holder, .sources .player-header .sound-button-holder {
+  width: 10%;
+  margin-top: 12px;
+  margin-right: 14px;
+  text-align: center;
+}
+.story .player-header .sound-button-holder .material-icons, .img-small .player-header .sound-button-holder .material-icons, .simple-quote .player-header .sound-button-holder .material-icons, .sources .player-header .sound-button-holder .material-icons {
+  color: #fff;
+  font-size: 25px;
+  text-align: right;
+  align-items: right;
+}
+.story .player-header.inactive .spotify-logo-holder, .img-small .player-header.inactive .spotify-logo-holder, .simple-quote .player-header.inactive .spotify-logo-holder, .sources .player-header.inactive .spotify-logo-holder {
+  visibility: hidden;
+  pointer-events: none;
+}
+.story .player-header.inactive .track-info-holder, .img-small .player-header.inactive .track-info-holder, .simple-quote .player-header.inactive .track-info-holder, .sources .player-header.inactive .track-info-holder {
+  visibility: hidden;
+  pointer-events: none;
+}
+.story .text-holder, .img-small .text-holder, .simple-quote .text-holder, .sources .text-holder {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 320px;
+  overflow-y: hidden;
+}
+.story .text-holder .text, .img-small .text-holder .text, .simple-quote .text-holder .text, .sources .text-holder .text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-bottom: 2px;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.story .img-holder, .img-small .img-holder, .simple-quote .img-holder, .sources .img-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 320px;
+  padding: 20px;
+  overflow-y: hidden;
+}
+.story .img-holder .story-img, .img-small .img-holder .story-img, .simple-quote .img-holder .story-img, .sources .img-holder .story-img {
+  width: 100%;
+}
+.story .arrow-down-holder, .img-small .arrow-down-holder, .simple-quote .arrow-down-holder, .sources .arrow-down-holder {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+.story .arrow-down-holder .arrow-down, .img-small .arrow-down-holder .arrow-down, .simple-quote .arrow-down-holder .arrow-down, .sources .arrow-down-holder .arrow-down {
+  border: solid #28160e;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.img-small .text-holder {
+  margin-top: 0px;
+}
+.img-small .text-holder .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.img-small img {
+  border: solid #28160e 1px;
+}
+
+/* Simple quote with no imgs */
+.simple-quote .quote {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  line-height: 1.3;
+}
+.simple-quote .author {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+/* Full image slide */
+.img .player-header, .quote-img .player-header {
+  background: #09060d;
+}
+.img .image-holder, .quote-img .image-holder {
+  height: 100%;
+}
+.img .full-img, .quote-img .full-img {
+  width: 100%;
+  height: 100%;
+}
+.img .legend-holder, .quote-img .legend-holder {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(100% - 40px);
+  padding: 10px;
+  background-color: rgba(9, 6, 13, 0.8);
+}
+.img .legend-holder .text, .quote-img .legend-holder .text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.img .legend-holder .text.quote, .quote-img .legend-holder .text.quote {
+  font-weight: 600;
+}
+.img .legend-holder .author, .quote-img .legend-holder .author {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.img .legend-holder .credit, .quote-img .legend-holder .credit {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.img .legend-holder .source-link, .img .legend-holder .source-link:hover, .quote-img .legend-holder .source-link, .quote-img .legend-holder .source-link:hover {
+  text-decoration: underline;
+}
+.img .arrow-down-holder, .quote-img .arrow-down-holder {
+  position: absolute;
+  bottom: 5px;
+  margin: auto;
+}
+.img .arrow-down-holder .arrow-down, .quote-img .arrow-down-holder .arrow-down {
+  border: solid #09060d;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+/* Sources screen */
+.sources {
+  position: relative;
+  background-color: #09060d;
+  display: block;
+}
+.sources .player-header {
+  background: #09060d;
+}
+.sources .title-holder {
+  margin: auto;
+  margin-top: 25px;
+}
+.sources .title-holder .source-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  color: #a8a099;
+}
+.sources .sources-holder {
+  margin: auto;
+  max-width: 320px;
+  padding: 10px;
+}
+.sources .sources-holder .text {
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #a8a099;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.sources .sources-holder .text a {
+  color: #a8a099;
+}
+.sources .arrow-down-holder {
+  position: absolute;
+  bottom: 20px;
+  margin: auto;
+}
+.sources .arrow-down-holder .arrow-down {
+  border: solid #a8a099;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+/* End screen (credits) */
+#end-screen {
+  background-color: #09060d;
+}
+#end-screen .estado-header {
+  height: 50px;
+}
+#end-screen .estado-header .logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15px;
+  height: 25px;
+  display: block;
+  margin: auto;
+}
+#end-screen .inner-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#end-screen .text {
+  color: #a8a099;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 1px;
+  line-height: 1.4;
+}
+#end-screen .title-box .sabbath-logo-holder {
+  margin: auto;
+}
+#end-screen .title-box .sabbath-logo-holder .logo {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+#end-screen .title-box .subtitle-holder h2.subtitle {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #a8a099;
+}
+#end-screen .credits-holder {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 280px;
+}
+#end-screen .credits-holder .person {
+  margin-bottom: 10px;
+}
+#end-screen .credits-holder .role {
+  font-weight: 600;
+}
+#end-screen .spotify-credits {
+  margin: auto;
+  margin-top: 20px;
+  min-width: 300px;
+  max-width: 310px;
+  padding: 0px 20px;
+}
+#end-screen .spotify-credits .role {
+  font-weight: 600;
+}
+#end-screen .button-holder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+#end-screen .button-holder #exit-button {
+  margin: auto;
+  width: 220px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #6C447a;
+  border-color: #09060d;
+  color: #a8a099;
+  outline: none;
+}
+#end-screen .button-holder .exit-button-content {
+  display: inline-flex;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Settings for desktop */
+@media (min-width: 420px) {
+  .swiper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .arrow-down {
+    border: solid #a8a099;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+
+  @keyframes up-and-down {
+    0% {
+      transform: translate3d(0, 0, 0) rotate(315deg);
+    }
+    10% {
+      transform: translate3d(-1px, 0, 0) rotate(315deg);
+    }
+    20% {
+      transform: translate3d(-2px, 0, 0) rotate(315deg);
+    }
+    30% {
+      transform: translate3d(-3px, 0, 0) rotate(315deg);
+    }
+    40% {
+      transform: translate3d(-4px, 0, 0) rotate(315deg);
+    }
+    50% {
+      transform: translate3d(-5px, 0, 0) rotate(315deg);
+    }
+    60% {
+      transform: translate3d(-4px, 0, 0) rotate(315deg);
+    }
+    70% {
+      transform: translate3d(-3px, 0, 0) rotate(315deg);
+    }
+    80% {
+      transform: translate3d(-2px, 0, 0) rotate(315deg);
+    }
+    90% {
+      transform: translate3d(-1px, 0, 0) rotate(315deg);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) rotate(315deg);
+    }
+  }
+  .swiper-wrapper {
+    height: 690px !important;
+  }
+
+  .swiper-slide {
+    width: 420px !important;
+    height: 690px !important;
+    border-radius: 10px;
+  }
+
+  .swiper-slide-next, .swiper-slide-prev {
+    transform: perspective(1px) scale(0.9) !important;
+    -webkit-filter: grayscale(0.5) brightness(0.3) blur(3px);
+    filter: grayscale(0.5) brightness(0.3) blur(3px);
+  }
+
+  .swiper-slide:not(.swiper-slide-active):not(.swiper-slide-next):not(.swiper-slide-prev) {
+    transform: perspective(1px) scale(0.85) !important;
+    -webkit-filter: grayscale(0.5) brightness(0.3) blur(3px);
+    filter: grayscale(0.5) brightness(0.3) blur(3px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

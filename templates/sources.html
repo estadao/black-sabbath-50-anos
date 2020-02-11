@@ -1,0 +1,32 @@
+<div class="swiper-slide sources" id="{{ slide['id'] }}">
+
+    {% if slide["track_id"] %}
+        {% include "player-active.html" %}
+
+    {% elif not slide["track_id"] %}
+        {% include "player-inactive.html" %}
+
+    {% endif %}
+        
+    <div class="title-holder">
+
+        <h1 class="source-title">Saiba mais:</h1> 
+    
+    </div> <!-- End of div.image-holder -->
+
+    <div class="sources-holder">
+
+        {% for source in slide["sources"] %}
+            <p class="text"><a href="{{ source['url'] }}">{{ source['text']|safe }}</a></p>
+        {% endfor %}
+
+    </div>
+        
+    <div class="arrow-down-holder">
+
+        <p class="arrow-down up-and-down"></p>
+
+    </div> <!-- End of div.arrow-down-holder-->
+
+
+</div> <!-- End of div.swiper-slide -->

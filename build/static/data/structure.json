@@ -1,0 +1,827 @@
+{
+
+    "tracks" : {
+
+        "bells" : {
+
+            "url": "static/media/tracks/bells-intro.mp3",
+
+            "on_spotify": "https://open.spotify.com/track/1udmPvJoBnqitbeYKKc9mc",
+
+            "artist": "Black Sabbath",
+
+            "song": "Black Sabbath",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+        "black-sabbath" : {
+
+            "track_id": "black-sabbath",
+
+            "url": "https://p.scdn.co/mp3-preview/4bf1e398de0edc42cd4a3efb4be5fa33f1aa0ac3?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/1udmPvJoBnqitbeYKKc9mc",
+
+            "artist": "Black Sabbath",
+
+            "song": "Black Sabbath",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+        "the-wizard" : {
+
+            "track_id": "the-wizard",
+
+            "url": "https://p.scdn.co/mp3-preview/9690fdff672dba332aeeee1c207b8bac52ac2424?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/3JvMig6Sc8XRLqHseNsccM",
+
+            "artist": "Black Sabbath",
+
+            "song": "The Wizard",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+
+        },
+
+        "behind-the-wall-of-sleep" : {
+
+            "track_id": "behind-the-wall-of-sleep",
+
+            "url": "https://p.scdn.co/mp3-preview/8199ac51302e7fa896dd81421d247ae100ca7f0b?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/7eXYekcOIQCxDJNS50JjQa",
+
+            "artist": "Black Sabbath",
+
+            "song": "Behind the Wall of Sleep",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+        "nib" : {
+
+            "track_id": "N.I.B.",
+
+            "url": "https://p.scdn.co/mp3-preview/82ab9db4cbf7987f7bb3dd912d3e4f7b4f020961?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/62oNfnQqObaqARM0DTibAL",
+
+            "artist": "Black Sabbath",
+
+            "song": "N.I.B.",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+        "evil-woman" : {
+
+            "track_id": "evil-woman",
+
+            "url": "https://p.scdn.co/mp3-preview/0b5e88563e508c4c29a2771e9c481f95c738f0d3?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/79muBjOf7N6akgrEJuik6R",
+
+            "artist": "Black Sabbath",
+
+            "song": "Evil Woman",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+        "sleeping-village" : {
+
+            "track_id": "sleeping-village",
+
+            "url": "https://p.scdn.co/mp3-preview/6a22745f2284e225f961f7dae38549788e4b71dd?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/0KHeKEA1pf0YtlCcGVCGce",
+
+            "artist": "Black Sabbath",
+
+            "song": "Sleeping Village",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+        "warning" : {
+
+            "track_id": "warning",
+
+            "url": "https://p.scdn.co/mp3-preview/c8f89d9fc60247ba6d9a0ad85ee2d9096afa405b?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/4JW2yU9lIb8jCNv47PpTfZ",
+
+            "artist": "Black Sabbath",
+
+            "song": "Warning",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        },
+
+
+        "wicked-world" : {
+
+            "track_id": "wicked-world",
+
+            "url": "https://p.scdn.co/mp3-preview/2f1f29ad1be729ea00b8427d8427bb073236b455?cid=7a4790705f9d45efa515017ecdccbb61",
+
+            "on_spotify": "https://open.spotify.com/track/0DAwAUbGa2ilY49D0JyRyW",
+
+            "artist": "Black Sabbath",
+
+            "song": "Wicked World",
+
+            "year": "1970",
+
+            "stop_at": null,
+
+            "loop": true
+
+        }
+
+    },
+
+    "slides" : [
+
+        {
+            "id": "title-screen",
+
+            "type": "title-screen"   
+
+        },
+
+        {
+            "id": "intro-1",
+
+            "type": "content-text",
+    
+            "track_id" : "bells",
+
+            "paragraphs": [
+
+                "Essas badaladas que você está ouvindo agora, ecoando em meio à chuva e aos trovões, são parte da introdução do primeiro disco do <strong>Black Sabbath</strong>.",
+
+                "Quando esse sino tocou pela primeira vez, um novo estilo musical tinha acabado de nascer: o <em>heavy metal</em>."
+
+            ]
+    
+        },
+
+        {
+            "id": "intro-2",
+
+            "type": "content-text",
+    
+            "track_id" : "bells",
+
+            "paragraphs": [
+
+                "Lançado em uma sexta-feira, 13 de fevereiro de 1970, o disco exibia uma sonoridade diferente do <em>blues rock</em> distorcido que as bandas mais pesadas da época tocavam.",
+
+                "Grupos como Led Zeppelin e Cream já tinham aumentado o volume do <em>rock 'n roll</em> britânico, tornando a música dançante dos Beatles algo mais pesado e enérgico.",
+
+                "O Black Sabbath, porém, rompeu com a cadência despreocupada de seus contemporâneos. Em suas composições se destacam sons ruidosos, que foram combinados a uma estética sinistra e misteriosa."
+
+            ]
+    
+        },
+
+        {
+            "id": "intro-3",
+
+            "type": "content-text",
+    
+            "track_id" : "black-sabbath",
+
+            "paragraphs": [
+
+                "A faixa-título do disco, que está tocando agora, encapsula a proposta: ela começa de forma lenta e pesada e evolui até atingir um ritmo veloz.",
+
+                "A melodia, sobreposta aos lamentos chorosos e monotônicos do vocalista <strong>Ozzy Osbourne</strong>, dialoga com a letra. Nela, o narrador se encontra com uma figura diabólica disposta a devastar o mundo todo."
+
+            ]
+    
+        },
+
+        {
+            "id": "intro-4",
+
+            "type": "content-text",
+    
+            "track_id" : "black-sabbath",
+
+            "paragraphs": [
+
+                "Os responsáveis por essa sonoridade eram quatro jovens da classe trabalhadora de Birmingham, cidade industrial no centro da Inglaterra.",
+
+                "Para autores como Andrew L. Cope, pesquisador que dedicou sua tese de doutorado ao som da banda, a atmosfera lúgubre do local e a falta de perspectivas de futuro ajudaram a moldar um novo gênero musical que se baseava em uma forma agressiva de tocar."
+
+            ]
+    
+        },
+
+        {
+            "id": "birmingham-1",
+
+            "type": "content-img",
+            
+            "track_id" : "black-sabbath",
+
+            "img" : {
+                
+                "url": "static/media/pics/aston-crop-1.png",
+
+                "alt": "Imagem área da região de Aston, em Birmingham. Foto de 1958",
+
+                "caption": "Os membros da banda cresceram em <strong>Aston</strong>, região da cidade que foi muito afetada por bombardeios durante a 2ª Guerra",
+
+                "credit": "Phyllis Nicklin (1958). Licença CC."
+
+             }
+    
+        },
+
+        {
+            "id": "birmingham-2",
+
+            "type": "content-img",
+            
+            "track_id" : "black-sabbath",
+
+            "img" : {
+                
+                "url": "static/media/pics/aston-crop-2.png",
+
+                "alt": "Imagem de escombros na região de Aston, em Birmingham. Foto de 1968",
+
+                "caption": "A área era considerada um <strong>lugar duro</strong>, que não oferecia muitas esperanças além de um emprego industrial",
+
+                "credit": "Phyllis Nicklin (1968). Licença CC."
+
+             }
+    
+        },
+
+        {
+            "id": "ozzy-1",
+
+            "type": "content-text",
+    
+            "track_id" : "black-sabbath",
+
+            "paragraphs": [
+
+                "Ozzy, que acabaria se tornando o membro mais famoso e controverso da banda, teve uma juventude ilustrativa da situação da cidade.",
+
+                "Ele abandonou a escola aos 15 anos. Trabalhou como pedreiro, encanador, operário em uma fábrica de carros e até em um abatedouro. Antes de virar vocalista, chegou a passar seis semanas preso por furtar roupas."
+
+            ]
+    
+        },
+
+        {
+            "id": "ozzy-2",
+
+            "type": "content-quote-img",
+
+            "track_id": "black-sabbath",
+
+            "img" : {
+                
+                "url": "static/media/pics/ozzy-solo-70s-crop.png",
+
+                "alt": "O cantor original do Black Sabbath, Ozzy Osbourne.",
+
+                "quote": "“Estávamos bravos com isso [...] e pensamos: 'vamos assustar o mundo inteiro com música'”",
+
+                "author": "<strong>Ozzy Osbourne</strong>, vocalista, em entrevista à revista Q Classic",
+
+                "credit": "Black Sabbath, divulgação"
+
+             }
+        
+        },
+
+
+        {
+            "id": "bill-ward-1",
+
+            "type": "content-text",
+    
+            "track_id" : "the-wizard",
+
+            "paragraphs": [
+
+                "O baterista <strong>Bill Ward</strong> diz que até mesmo o barulho das fábricas e indústrias foi uma influência significativa para a banda.",
+
+                "Ele se destacou por tocar de forma agressiva e com alto volume, o que contribuía para a violência sonora – até então sem precedentes – do grupo. Sua performance raivosa, relata, era inspirado no som do maquinário.",
+
+                "O estilo ruidoso aparece em faixas como <strong>The Wizard</strong>, que evidencia como o Black Sabbath perverteu o <em>blues rock</em> e transformou-o em um som ameaçador."
+
+            ]
+    
+        },
+
+        {
+            "id": "bill-ward-2",
+
+            "type": "content-quote-img",
+
+            "track_id": "the-wizard",
+
+            "img" : {
+                
+                "url": "static/media/pics/bill-ward.png",
+
+                "alt": "Bill Ward, baterista da formação clássica do Black Sabbath.",
+
+                "quote": "“Você conseguia ouvir os pistões caindo... E eu ficava batucando, colocando ritmo nas batidas”",
+
+                "author": "<strong>Bill Ward</strong>, baterista, em depoimento no documentário <em>7 Ages of Rock</em>",
+
+                "credit": "Warner Bros. Studio"
+
+             }
+        
+        },
+
+        {
+            "id": "iommi-guitar-1",
+
+            "type": "content-text",
+    
+            "track_id" : "the-wizard",
+
+            "paragraphs": [
+
+                "Além de oferecer uma inspiração sombria, o estilo de vida industrial de Birmingham causou uma mudança mais palpável na sonoridade do grupo.",
+
+                "O guitarrista <strong>Tony Iommi</strong>, principal compositor da banda, foi vítima de um acidente de trabalho que deformou os dedos de sua mão direita.",
+
+                "Assim, ele foi forçado a afinar o instrumento alguns tons abaixo, o que deixa as cordas mais soltas e menos resistentes ao toque. Como consequência, surgiu um som mais grave e – como dá para ouvir – distorcido."
+
+            ]
+    
+        },
+
+        {
+            "id": "iommi-guitar-2",
+
+            "type": "content-quote-img",
+
+            "track_id": "the-wizard",
+
+            "img" : {
+                
+                "url": "static/media/pics/iommi-1978.png",
+
+                "alt": "O guitarrista do Black Sabbath, Tony Iommi, em fotografia de 1971",
+
+                "quote": "“Me disseram que eu nunca ia tocar de novo, mas eu não ia aceitar isso”",
+
+                "author": "<strong>Tony Iommi</strong>, guitarrista, em entrevista à BBC",
+
+                "credit": "Carl Lender. Licença CC."
+
+             }
+        
+        },
+
+        {
+            "id": "geezer-butler-1",
+
+            "type": "content-text",
+    
+            "track_id" : "behind-the-wall-of-sleep",
+
+            "paragraphs": [
+
+                "A sonoridade raivosa encontrou companhia nas letras do grupo, que eram escritas pelo baixista Geezer Butler.",
+
+                "Todas as composiçõs originais do disco – que traz também dois covers de grupos de blues – versam sobre o oculto ou sobre guerra e injustiças.",
+
+                "Por exemplo, <strong>Behind The Wall of Sleep</strong>, que está tocando agora, fala sobre um dos pesadelos que atormentavam o sono do músico. Butler imaginava que seus sonhos poderiam ser prenúncios da morte."
+
+            ]
+    
+        },
+
+        {
+            "id": "geezer-butler-2",
+
+            "type": "content-quote-img",
+    
+            "track_id" : "behind-the-wall-of-sleep",
+
+            "img" : {
+                
+                "url": "static/media/pics/geezer-butler.jpg",
+
+                "alt": "O baixista e principal letrista da banda, Geezer Butler",
+
+                "quote": "“Eu estava cercado por guerra e religião. Quando comecei a escrever, estava me rebelando contra tudo com o que cresci”",
+
+                "author": "<strong>Geezer Butler</strong>, baixista, em entrevista à revista Metal Hammer",
+
+                "credit": "Warner Bros. Studio"
+
+             }
+    
+        },
+
+        {
+            "id": "name-change-1",
+
+            "type": "content-text",
+    
+            "track_id" : "behind-the-wall-of-sleep",
+
+            "paragraphs": [
+
+                "Foi Butler que insistiu em trocar o nome da banda – antes, o grupo já havia se chamado <em>Polka Tulk Blues Band</em> e <em>Earth</em>.",
+
+                "A inspiração para investir em uma estética maligna veio do cinema. Pouco depois de terminar um ensaio com o grupo, Butler viu uma fila enorme que esperava para assistir a um filme de terror.",
+                
+                "Se essas pessoas estavam dispostas a pagar para ver um filme assustador, por que não estariam dispostas a pagar por música assustadora?"
+
+
+            ]
+    
+        },
+
+        {
+            "id": "name-change-2",
+
+            "type": "content-img",
+    
+            "track_id" : "behind-the-wall-of-sleep",
+
+            "img" : {
+                
+                "url": "static/media/pics/black-sabbath-movie.png",
+
+                "alt": "A capa em inglês do filme 'Black Sabbath', de 1963",
+
+                "caption": "O filme era o italiano <em>I tre volti della paura</em>. Na tradução literal, a obra deveria se chamar 'As Três Faces do Medo', mas virou <strong>'Black Sabbath'</strong> na versão em inglês",
+
+                "credit": null
+
+             }
+    
+        },
+
+        {
+            "id": "imagery-1",
+
+            "type": "content-text",
+    
+            "track_id" : "nib",
+
+            "paragraphs": [
+
+                "Além da faixa-título, outra canção do álbum faz referência direta ao demônio: <strong>N.I.B.</strong>, cuja letra narra um episódio em que o diabo se apaixona por uma mortal.",
+
+                "O verso mais marcante da canção – <em>“My name is Lucifer, plase take my hand!”</em> – sintetiza a imagem controversa que a banda construiu e que ajudou o lançamento a atingir sucesso comercial: entre música e polêmica, o disco ficou em 8º lugar nas paradas britânicas."
+
+            ]
+    
+        },
+
+        {
+            "id": "imagery-2",
+
+            "type": "content-img-small",
+    
+            "track_id" : "nib",
+
+            "img" : {
+
+                "url": "static/media/pics/black-sabbath-album-cover.jpg",
+
+                "alt": "A capa do disco, que mostra uma bruxa em frente a um moinho medieval",
+ 
+                "caption": "Até a arte da capa era parte do conceito: ela exibe uma mulher misteriosa – uma bruxa? – em frente a um moinho do século XV, no interior rural da Inglaterra."
+
+            }
+    
+        },
+
+        {
+            "id": "imagery-3",
+
+            "type": "content-text",
+    
+            "track_id" : "nib",
+
+            "paragraphs": [
+
+                "Essa estética se tornaria um marco da banda até o fim da carreira – embora nenhum dos outros discos tenha uma capa envolvida em tanto mistério quanto essa.",
+
+                "A soma do barulho e da associação mal-disfarçada às forças do mal inspiraram várias bandas pesadas que vieram depois, do Iron Maiden ao Slayer e além.",
+
+                "Em retrospectiva, a tática funcionou. Porém, na época, os críticos não economizaram nas resenhas negativas e irônicas."
+
+            ]
+        },
+
+        {
+            "id": "criticism-1",
+
+            "type": "content-simple-quote",
+    
+            "track_id" : "nib",
+
+            "quote": {
+
+                "quote" : "“O álbum inteiro é uma droga. Apesar dos títulos sombrios e das letras idiotas que parecem um tributo do Vanilla Fudge ao Aleister Crowley, o disco não tem nada de espiritualismo, ocultismo ou de qualquer coisa além de clichês do Cream mal-executados”",
+
+                "author" : "<strong>Lester Bangs</strong>, crítico musical, em uma resenha do álbum publicada na revista Rolling Stone logo depois do lançamento "
+
+            }
+    
+        },
+
+        {
+            "id": "blues-1",
+
+            "type": "content-text",
+    
+            "track_id" : "evil-woman",
+
+            "paragraphs": [
+
+                "Na mesma resenha, Lester elogiou o trabalho de uma banda chamada Gun. Hoje obscuro, o grupo deixou de existir já no ano em que a crítica foi publicada. As letras que ele considerava idiotas e os títulos sombrios, porém, tinham vindo para ficar e seriam adotados por um caminhão de artistas a partir dali.",
+
+                "Entretanto, até mesmo membros do Black Sabbath – geralmente reverenciados como mestres e anciãos pelo metaleiros – já declararam que se sentem desconfortáveis quando são associados aos sons mais pesados cuja gênese influenciaram."
+            ]
+        },
+
+        {
+            "id": "blues-2",
+
+            "type": "content-quote-img",
+    
+            "track_id" : "evil-woman",
+
+            "img" : {
+
+                "url": "static/media/pics/ozzy-solo.jpg",
+
+                "alt": "Ozzy Osbourne se ajoelha no palco em dos shows mais recentes da banda",
+ 
+                "quote": "“Que parte disso é inspirada em nós? Uma parte é só gente brava gritando no microfone”",
+
+                "author": "<strong>Ozzy Osbourne</strong>, em entrevista à CNN",
+
+                "credit": "Carl Lender. Licença CC."
+
+            }
+
+        },
+
+
+        {
+            "id": "blues-3",
+
+            "type": "content-simple-quote",
+    
+            "track_id" : "evil-woman",
+
+            "quote": {
+
+                "quote" : "“Muito [do Black Sabbath] tem raízes no blues e na improvisação. As pessoas que vieram nos passos deles não têm essas mesmas habilidades”",
+
+                "author" : "<strong>Rick Rubin</strong>, produtor do último disco da banda, em entrevista para a revista Rolling Stone"
+
+            }
+    
+        },
+
+        {
+            "id": "blues-4",
+
+            "type": "content-text",
+    
+            "track_id" : "evil-woman",
+
+            "paragraphs": [
+
+                "No lado B do disco de estreia – vale sempre lembrar que, na época do vinil, as gravações tinham dois lados – essas raízes ficam bem evidentes.",
+
+                "<strong>Evil Woman</strong> – cover do Crow que está tocando há algum tempo – é a primeira de uma série de faixas que revelam muito do lado <em>bluesmen</em> do grupo. "
+
+            ]
+        },
+
+        {
+            "id": "blues-5",
+
+            "type": "content-text",
+    
+            "track_id" : "sleeping-village",
+
+            "paragraphs": [
+
+                "Logo em seguida, em <strong>Sleeping Village</strong>, dá as caras a capacidade de improvisação de que o produtor Rick Rubin fala." ,
+                
+                "Depois de uma introdução lenta em que Ozzy Osbourne se limita a falar quatro frases, a música se desmancha em um solo breve."
+            ]
+
+        },
+
+        {
+            "id": "blues-6",
+
+            "type": "content-text",
+    
+            "track_id" : "sleeping-village",
+
+            "paragraphs": [
+
+                "A música do Black Sabbath não apenas tem ecos de <em>blues</em> e <em>jazz</em>, mas também incorpora um elemento importante da cultura desses gêneros: de acordo com Iommi, o disco todo foi gravado praticamente no improviso, em menos de dois dias.",
+                
+                "A banda tocou junta no estúdio, quase como em uma <em>jam</em>. Em contraste, o mais comum é que as gravações de rock e metal sejam feitas de forma separada para cada instrumento."
+
+            ]
+
+        },
+
+        {
+            "id": "blues-7",
+
+            "type": "content-text",
+    
+            "track_id" : "warning",
+
+            "paragraphs": [
+
+                "<strong>Warning</strong>, a penúltima peça do álbum, bebe ainda mais dessa fonte.",
+
+                "A canção é um cover do projeto solo de Aynsley Dunbar, baterista de Liverpool que tocou com nomes como Jeff Beck, David Bowie e Frank Zappa."
+                
+            ]
+
+        },
+
+        {
+            "id": "blues-8",
+
+            "type": "content-text",
+    
+            "track_id" : "warning",
+
+            "paragraphs": [
+
+                "Novamente, depois de um breve segmento cantado, a banda se dedica a improvisos, solos e exibicionismo técnico. A coisa toda dura mais de dez minutos."
+
+            ]
+
+        },
+
+        {
+            "id": "ending-1",
+
+            "type": "content-text",
+    
+            "track_id" : "wicked-world",
+
+            "paragraphs": [
+
+                "Antes dos 38 minutos de duração do disco chegarem ao fim, porém, ainda dá tempo da banda voltar ao nascente <em>heavy metal</em>.",
+
+                "<strong>Wicked World</strong> retoma os temas e ritmos da primeira metade do álbum e serve como prenúncio para o próximo lançamento do grupo, Paranoid, que chegaria ao mercado pouco mais de seis meses depois.",
+
+                "Nele, o Sabbath ficaria ainda mais grave, mais distorcido e mais pesado. Isso, porém, já é assunto para outra retrospectiva."
+                
+            ]
+
+        },
+
+        {
+            "id": "ending-2",
+
+            "type": "content-img",
+            
+            "track_id" : "wicked-world",
+
+            "img" : {
+                
+                "url": "static/media/pics/sabbath-divulgacao.png",
+
+                "alt": "Três membros do Black Sabbath em uma floresta, posando pata foto publicitária",
+
+                "caption": null,
+
+                "credit": null
+
+             }
+    
+        },
+
+        {
+            "id": "sources",
+
+            "track_id": "wicked-world",
+
+            "type": "sources",
+
+            "sources": [
+
+                {
+                    "text": "<strong>Andrew L. Cope.</strong> Black Sabbath and The Rise of Heavy Metal Music (2010)",
+                    "url": "https://www.amazon.com.br/Black-Sabbath-Heavy-Metal-Music/dp/0754668819"
+                },
+
+                {
+                    "text": "<strong>BBC.</strong> Black Sabbath: 'We hated being a heavy metal band'",
+                    "url": "https://www.bbc.com/news/uk-england-birmingham-38768573"
+                },
+
+                {
+                    "text": "<strong>BBC Two.</strong> 7 Ages of Rock: Never Say Die",
+                    "url": "https://www.dailymotion.com/video/x2ew47k"
+                },
+
+                {
+                    "text": "<strong>Blabbermouth.</strong> Ozzy Osbourne: I Have Never Ever Ever Been Able To Attach Myself To The Word 'Heavy Metal'",
+                    "url": "https://www.blabbermouth.net/news/ozzy-osbourne-i-have-never-ever-ever-been-able-to-attach-myself-to-the-word-heavy-metal/"
+                },
+
+                {
+                    "text": "<strong>Brumpic.</strong> The A-Z Of Phyllis Nicklin - Aston",
+                    "url": "https://www.brumpic.com/new-blog-5/"
+                },
+
+                {
+                    "text": "<strong>Metal Hammer.</strong> Black Sabbath's Geezer Butler: My Life Story",
+                    "url": "https://www.loudersound.com/features/black-sabbaths-geezer-butler-my-life-story"
+                },
+                
+                {
+                    "text": "<strong>Rolling Stone.</strong> Resenha do disco escrita por Lester Bangs",
+                    "url": "https://www.rollingstone.com/music/music-album-reviews/black-sabbath-188300/"
+                },
+
+                {
+                    "text": "<strong>Rolling Stone.</strong> Black Sabbath on Sixties Origins: ‘We Were Rejected Again and Again’",
+                    "url": "https://www.rollingstone.com/music/music-features/black-sabbath-on-sixties-origins-we-were-rejected-again-and-again-192645/"
+                }  
+
+            ]
+                
+        },
+
+        {
+            "id": "end-screen",
+
+            "track-id": "wicked-world",
+
+            "type": "end-screen"
+
+        }
+
+    ]
+}
